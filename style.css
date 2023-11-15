@@ -33,6 +33,7 @@ body {
     margin-top: 20%;
     padding: 20px 30px;
     display: none;
+    position: fixed;
 }
 label {
     display: block;
@@ -43,5 +44,9 @@ label {
     align-items: center;
     gap: 10px;
     margin-top: 10px;
+}
+.album {
+    background-color: red;
+    
 }
 
