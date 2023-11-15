@@ -1,0 +1,47 @@
+:root {
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+.page-title, .add-album-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-title {
+    font-weight: 900;
+}
+.add-album-div {
+    margin-top: 20px;
+}
+.add-album-btn {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+#new-album-form {
+    border: 3px solid darkgray;
+    width: max-content;
+    margin: auto;
+    margin-top: 20%;
+    padding: 20px 30px;
+    display: none;
+}
+label {
+    display: block;
+}
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
