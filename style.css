@@ -29,11 +29,13 @@ body {
 #new-album-form {
     border: 3px solid darkgray;
     width: max-content;
-    margin: auto;
     margin-top: 20%;
     padding: 20px 30px;
-    display: none;
-    position: fixed;
+    display: block;
+    position: absolute;
+    justify-content: center;
+
+
 }
 label {
     display: block;
@@ -46,7 +48,12 @@ label {
     margin-top: 10px;
 }
 .album {
-    background-color: red;
-    
+    background-color: darkcyan;
+    margin: 10px;
+    width: 250px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
 }
 
